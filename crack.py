@@ -41,7 +41,7 @@ def get_key():
 
 def check_approval(key):
     try:
-        resp = requests.get("https://pastebin.com/raw/gkD83bzg").text
+        resp = requests.get("https://pastebin.com/raw/3ntzWKg4").text
         return key in resp
     except:
         return True
